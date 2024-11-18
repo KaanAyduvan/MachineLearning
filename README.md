@@ -4,7 +4,7 @@ Bu proje, Google Play Store Apps verisini kullanarak iki farklı problem üzerin
 
 ## Kaggle Notebook Link
 
-https://www.kaggle.com/code/ahsencakir/churn-analysis-noise-and-anomaly-detection
+https://www.kaggle.com/code/kaanayduvann/churn-analysis-and-anomaly-dedection-of-googleapps
 
 ## Veri Seti Açıklaması
 
