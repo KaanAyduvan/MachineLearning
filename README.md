@@ -1,6 +1,6 @@
 # Google Play Store Apps - Churn Analysis and Noise & Anomaly Detection
 
-Bu proje, Google Play Store Apps verisini kullanarak iki farklı problem üzerine odaklanmıştır: **Churn Analysis (Kullanıcı Kaybı Analizi)** ve **Noise and Anomaly Detection (Gürültü ve Anomali Tespiti)**. Verinin öne çıkan özellikleri ve yapılan analizler aşağıda detaylandırılmıştır.
+Bu proje, Google Play Store Apps verisini kullanarak bu problem üzerine odaklanmıştır: **Churn Analysis (Kullanıcı Kaybı Analizi)**. Verinin öne çıkan özellikleri ve yapılan analizler aşağıda detaylandırılmıştır.
 
 ## Kaggle Notebook Link
 
@@ -59,17 +59,4 @@ Churn Analysis projemizde, model performansını şu metriklerle değerlendirdik
 - **Recall**: 0.9911452622972144
 - **F1**: 0.9940152960553137
 
-## Noise and Anomaly Detection Projesi Sonuçları
-Noise and Anomaly Detection projemizin final çıktısı:
-
-- **Davies-Bouldin Skoru**: 12.782790832582085
-
-Bu proje için Davies-Bouldin skoru, kümeleme algoritmalarının performansını değerlendirmek amacıyla kullanılmıştır. Bu indeks, her bir kümenin merkezi ile o kümedeki örneklerin birbirine yakınlığını ölçer. Düşük Davies-Bouldin skoru, daha iyi bir kümeleme performansını gösterir.
-
-## Projenin Amacı ve Uygulanan Yöntemler
-Veri setimiz, Google Play Store'daki Android uygulamalarının kategorilerini tahmin etmek için denetimli öğrenme yöntemlerinden sınıflandırma algoritmalarının kullanımına uygundur. Özellikle her uygulamanın sahip olduğu "Kategori" etiketi, sınıflandırma modelleri eğitmek için kullanılmıştır.
-
-Bu projede, çeşitli sınıflandırma algoritmaları (Lojistik Regresyon, Doğrusal Regresyon vb.) test edilmiştir. Verinin karmaşıklığı, boyutu ve doğruluk düzeyi gibi faktörler göz önünde bulundurularak uygun algoritmalar seçilmiş ve deneysel bir yaklaşımla sonuçlar karşılaştırılmıştır.
-
-**Özellik mühendisliği**, model doğruluğunu artırmak için önemli bir adım olarak kabul edilmiştir. Model değerlendirme metrikleri, düzenleme teknikleri ve aşırı öğrenmeyi önleme yöntemleri kullanılarak daha başarılı sonuçlar elde edilmiştir.
 
